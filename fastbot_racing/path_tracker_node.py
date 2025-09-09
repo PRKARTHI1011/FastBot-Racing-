@@ -17,7 +17,7 @@ class PurePursuitNode(Node):
 
         # --- Load Waypoints ---
         package_share_dir = get_package_share_directory('fastbot_racing')
-        waypoints_file = '/home/user/ros2_ws/waypoints.csv'
+        waypoints_file = '/home/user/ros2_ws/src/fastbot_racing/waypoints.csv'
         self.waypoints = self.load_waypoints(waypoints_file)
         
         # --- Subscribers and Publishers ---
